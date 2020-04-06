@@ -12,13 +12,13 @@ export default () => (
         <Link to="/blog/">Guides</Link>
       </li>
       <li className={styles.navigationItem}>
-        <Link to="/">Reviews</Link>
+        <Link to="/reviews/">Reviews</Link>
       </li>
       <li className={styles.navigationItem}>
-        <Link to="/">Quick Tips</Link>
+        <Link to="/quick-tips/">Quick Tips</Link>
       </li>
       <li className={styles.navigationItem}>
-        <Link to="/">More</Link>
+        <Link to="/more/">More</Link>
       </li>
     </ul>
   </nav>
